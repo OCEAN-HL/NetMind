@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  gnn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: .
+        target: /code
+        consistency: cached
+    
