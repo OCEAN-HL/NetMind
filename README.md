@@ -17,7 +17,7 @@ Otherwise, you can also run the code based on related required dependents, liste
 
 To use the code, there are two folders in src/SFC, namely *CODER* and *DRL*. *CODER* consists the the GCN-based encoder and decoder. 'src/SFC/CODER/EDcode/Network_x/data_generate_x.py' generates the data and 'src/SFC/CODER/EDcode/Network_x/meta_x.py' trains and saves the encoders for reuse in the DRL training process.
 
-Then *DRL* includes the agent and environment. It is realized based on the *gym*, and you can find the maze in 'src/SFC/DRL/maze/maze/envs/SfcEnv.py' and the main file in 'src/SFC/DRL/maze/main.py'
+Then *DRL* includes the agent and environment. It is realized based on the *Open AI Gym*, and you can find the maze in 'src/SFC/DRL/maze/maze/envs/SfcEnv.py' and the main file in 'src/SFC/DRL/maze/main.py'
 
 Refer to https://www.youtube.com/watch?v=kd4RrN-FTWY for setting up a gym-based environment. It's a good tutorial.
 
