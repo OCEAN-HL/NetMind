@@ -102,18 +102,18 @@ class DQNAgent:
         self, env, observe, explore, train
     ):  # step 的输出有self.state.detach().numpy().astype(np.float32), reward, terminated, {}
         rewards = []
-        state = env.reset()  # 第一步肯定是要reset的
+        state = env.reset() 
 
         current_dir = os.path.abspath(os.path.dirname(__file__))
 
         while self.steps <= observe:
             process = "observe"
-            action = torch.randint(0, 9, (1,)).item() # 在这里改，就可以实现不同的策略
+            action = torch.randint(0, 9, (1,)).item() 
             next_state, reward, terminated, _ = env.step(action)
             # print(f"next_state: {next_state}")
             if terminated == True:
                 self.remember(state, action, reward, next_state)
-                state = env.reset()  # 第一步肯定是要reset的
+                state = env.reset() 
             else:
                 state = next_state
                 # print(f"state: {len(state)}")
