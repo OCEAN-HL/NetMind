@@ -6,7 +6,8 @@ For ease of reuse, the code is containerized and you can simply go inside the co
 
 Otherwise, you can also run the code based on related required dependents, listed in the *requirements.txt*
 
-To use the code, there are two folders in src/SFC, namely *CODER* and *DRL*. *CODER* consists the the GCN-based encoder and decoder, they save the encoder neural networks for reuse in the DRL training process.
+To use the code, there are two folders in src/SFC, namely *CODER* and *DRL*. *CODER* consists the the GCN-based encoder and decoder. 'src/SFC/CODER/EDcode/Network_x/data_generate_x.py' generates the data and 'src/SFC/CODER/EDcode/Network_x/meta_x.py'
+train and save the encoders for reuse in the DRL training process.
 
 Then *DRL* includes the agent and environment. It is realized based on the *gym*, and you can find the maze in 'src/SFC/DRL/maze/maze/envs/SfcEnv.py' and the main file in 'src/SFC/DRL/maze/main.py'
 
