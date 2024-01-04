@@ -1,4 +1,4 @@
-# NetMind
+# NetMind - Baseband Function Placement with GCN Encoding and Maze-solving DRL for advanced RAN
 
 This work has been accepted by IEEE Wireless Communications and Networking Conference 2024. It is supported by the UK-funded project REASON and TUDOR under the Future Open Networks Research Challenge sponsored by DSIT.
 
