@@ -11,7 +11,7 @@ In an example with three sub-networks, NetMind achieves comparable performance t
 
 **Handbook** 
 
-For ease of reuse, the code is containerized and you can simply go inside the container by using the *docker* and *Dev Container* inserts.
+For ease of reuse, the code is containerized and you can simply go inside the container by using the *docker* and *Dev Containers* inserts.
 
 Otherwise, you can also run the code based on related required dependents, listed in the *requirements.txt*
 
