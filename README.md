@@ -21,4 +21,13 @@ Then *DRL* includes the agent and environment. It is realized based on the *Open
 
 Refer to https://www.youtube.com/watch?v=kd4RrN-FTWY for setting up a gym-based environment. It's a good tutorial.
 
+If you find this work useful, it would be appreciated if you could cite it by:
+
+@article{li2024netmind,\
+  title={NetMind: Adaptive RAN Baseband Function Placement by GCN Encoding and Maze-solving DRL},\
+  author={Li, Haiyuan and Li, Peizheng and Assis, Karcius Day and Aijaz, Adnan and Shen, Sen and Nejabati, Reza and Yan, Shuangyi and Simeonidou, Dimitra},\
+  journal={arXiv preprint arXiv:2401.06722},\
+  year={2024}\
+}
+
 
